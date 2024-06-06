@@ -1,8 +1,140 @@
-/*
-Colors:
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+img{
+    width: 200px;
+}
 
-*/
+header {
+    height: 20%;
+    padding: 20px;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.nav-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+    flex-grow: 1;
+}
+
+.nav-right > a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+}
+
+.hero {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero-bg {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.hero-content > h1{
+    font-size: 50px;
+}
+
+.features {
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.feature-box {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.feature {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 30%;
+    height: auto;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.details {
+    background: #1db954;
+    color: #fff;
+    padding: 70px 180px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 20px;
+}
+
+.texto {
+    flex: 1;
+}
+
+.detail-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.detail {
+    width: 200px;
+}
+
+.imagenes {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.white-icon {
+    width: 150px;
+}
+
+.spotify-app {
+    width: 300px;
+    height: auto;
+}
+
+.underline{
+    text-decoration-line: underline;
+    text-decoration-color: #1db954;
+    font-size: 40px;
+}
+
+.details{
+    justify-content: space-around;
+}
